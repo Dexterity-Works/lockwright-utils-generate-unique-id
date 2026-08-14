@@ -1,3 +1,6 @@
+> [!WARNING]
+> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
+
 # pear-apps-utils-generate-unique-id
 
 Generate unique IDs for Pear Apps
