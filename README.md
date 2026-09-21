@@ -1,9 +1,10 @@
-> [!WARNING]
-> 🍐 PearPass is currently paused from active development, so please use at your own caution until further notice.
+# lockwright-utils-generate-unique-id
 
-# pear-apps-utils-generate-unique-id
+Generate unique IDs.
 
-Generate unique IDs for Pear Apps
+Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
+
+Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
 
 ## Features
 
@@ -13,15 +14,14 @@ Generate unique IDs for Pear Apps
 
 ## Security Notice
 
-1. To ensure the security and integrity of your projects, please note that official PearPass packages are distributed exclusively through our GitHub organization.
-2. Any packages with similar names found on the npm registry or other third-party package managers are not affiliated with PearPass and should be strictly avoided. We recommend installing directly from this repository to ensure you are using the verified, open-source version.
+Imports stay `@tetherto/pear-apps-utils-generate-unique-id`. That npm name is not this fork if you install it from the npm registry.
 
 ## Installation
 
 Install the package using npm:
 
 ```bash
-npm install git+https://github.com/tetherto/pear-apps-utils-generate-unique-id.git
+npm install git+https://github.com/Dexterity-Works/lockwright-utils-generate-unique-id.git
 ```
 
 ## Testing
@@ -70,9 +70,9 @@ generateUniqueId(options?)
 
 ## Related Projects
 
-- [@tetherto/pearpass-app-mobile](https://github.com/tetherto/pearpass-app-mobile) - A mobile app for PearPass, a password manager
-- [@tetherto/pearpass-app-browser-extension](https://github.com/tetherto/pearpass-app-browser-extension) - A browser extension for PearPass, a password manager
-- [@tetherto/pearpass-app-desktop](https://github.com/tetherto/pearpass-app-desktop) - A desktop app for PearPass, a password manager
+- [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile) - Lockwright for mobile
+- [lockwright-app-browser-extension](https://github.com/Dexterity-Works/lockwright-app-browser-extension) - Lockwright browser extension
+- [lockwright-app-desktop](https://github.com/Dexterity-Works/lockwright-app-desktop) - Lockwright for desktop
 
 ## License
 
