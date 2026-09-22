@@ -14,7 +14,7 @@ Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Teth
 
 ## Security Notice
 
-Imports stay `@tetherto/pear-apps-utils-generate-unique-id`. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-utils-generate-unique-id`.
 
 ## Installation
 
@@ -37,7 +37,7 @@ npm test
 ### Default (UUID v4 when available)
 
 ```javascript
-import { generateUniqueId } from '@tetherto/pear-apps-utils-generate-unique-id';
+import { generateUniqueId } from 'lockwright-utils-generate-unique-id';
 
 const id = generateUniqueId();
 // => "f47ac10b-58cc-4372-a567-0e02b2c3d479"  (UUID v4)
