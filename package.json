@@ -6,7 +6,6 @@
   "main": "src/index.js",
   "license": "Apache-2.0",
   "scripts": {
-    "prepare": "husky || true",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "test": "jest"
@@ -29,4 +28,3 @@
     }
   }
 }
-
