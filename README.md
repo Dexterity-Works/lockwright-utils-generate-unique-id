@@ -1,5 +1,9 @@
 # lockwright-utils-generate-unique-id
 
+> **Moved to [`lockwright-lib-utils`](https://github.com/Dexterity-Works/lockwright-lib-utils).** Import `lockwright-lib-utils/generate-unique-id` instead; the exports are the same. This repo is archived and keeps its history.
+>
+> Why: five small util repos meant up to five commit pins in every Lockwright app and library. They only ever changed together, and two of those pins had already drifted apart. One package means one pin per app.
+
 Generate unique IDs.
 
 Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
